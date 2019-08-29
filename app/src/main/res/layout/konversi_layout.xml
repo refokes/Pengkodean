@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:text= "Celcius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtxt_celcius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_konvert"
+        android:text="Hitung"
+        android:layout_marginBottom="8dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="hasil"
+        android:id="@+id/txt_luas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtxt_kelvin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kelvin"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="5dp"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtxt_farenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Farenheit"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtxt_reamur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reamur"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="5dp"/>
+</LinearLayout>
